@@ -9,10 +9,11 @@
 .sec-1 {
     text-align: center;
     color: #fff;
-    position: relative;
-    top: 200px;
-    line-height: 4rem;
+    /* position: relative; */
+    /* top: 200px; */
+    line-height: 3rem;
     font-size: 2rem;
+    padding-top: 200px;
 
 }
 
@@ -21,14 +22,16 @@
 }
 
 #mouse-pad {
-    position: relative;
-    bottom: -270px;
+    /* position: relative; */
+    /* bottom: -270px; */
+    padding-bottom: -150px;
 }
 
 /* start of section 2 styling*/
 .section-2 {
     text-align: center;
     line-height: 3rem;
+    height: 50vh;
 }
 
 /* end of styling section 2 */
@@ -38,15 +41,20 @@
     background-image: url(./Assets/contact.3.jpg);
     width: 100vw3;
     background-size: 100vw;
-    height:50vh;
+    height:60vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.sec-2{
+.sec-3{
     text-align: center;
     color:#fff;
     line-height: 3rem;
-     position: relative;
-     top:120px;
+     /* position: relative; */
+     /* top:120px; */
+     padding-top: 50px;
 
+}
+.container{
+    text-align: center;
+    padding-top:30px ;
 }
