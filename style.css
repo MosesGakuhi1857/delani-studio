@@ -1,7 +1,24 @@
-section{
+.section-1{
     background-image: url(./Assets/landing.2.jpg);
-    background-size:100vw,100vh;
-    height: 100vh;
+    background-size:100vw;
+    height: 120vh;
     background-repeat: no-repeat;
     
 }
+.sec-1{
+    text-align: center;
+    color:#fff;
+    position: relative; 
+    top: 200px; 
+    line-height: 3rem;
+    font-size: 2rem;
+
+}
+.special-font{
+    font-size:0.8rem;
+}
+#mouse-pad{
+    position: relative;
+    bottom:-300px;
+}
+ /* start of section 2 styling*/
