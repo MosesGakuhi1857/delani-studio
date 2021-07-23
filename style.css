@@ -1,24 +1,52 @@
-.section-1{
+.section-1 {
     background-image: url(./Assets/landing.2.jpg);
-    background-size:100vw;
+    background-size: 100vw;
     height: 120vh;
     background-repeat: no-repeat;
-    
+
 }
-.sec-1{
+
+.sec-1 {
     text-align: center;
-    color:#fff;
-    position: relative; 
-    top: 200px; 
-    line-height: 3rem;
+    color: #fff;
+    position: relative;
+    top: 200px;
+    line-height: 4rem;
     font-size: 2rem;
 
 }
-.special-font{
-    font-size:0.8rem;
+
+.special-font {
+    font-size: 0.8rem;
 }
-#mouse-pad{
+
+#mouse-pad {
     position: relative;
-    bottom:-300px;
+    bottom: -270px;
 }
- /* start of section 2 styling*/
+
+/* start of section 2 styling*/
+.section-2 {
+    text-align: center;
+    line-height: 3rem;
+}
+
+/* end of styling section 2 */
+
+/* start of styling section 3 */
+.section-3{
+    background-image: url(./Assets/contact.3.jpg);
+    width: 100vw3;
+    background-size: 100vw;
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-2{
+    text-align: center;
+    color:#fff;
+    line-height: 3rem;
+     position: relative;
+     top:120px;
+
+}
