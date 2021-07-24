@@ -44,7 +44,7 @@
 /* start of styling section 3 */
 .section-3{
     background-image: url(./Assets/contact.3.jpg);
-    width: 100vw3;
+    width: 100vw;
     background-size: 100vw;
     height:60vh;
     background-repeat: no-repeat;
@@ -59,6 +59,9 @@
      padding-top: 50px;
 
 }
+.content{
+    display:none;
+}
 .container{
     text-align: center;
     padding-top:30px ;
@@ -66,19 +69,44 @@
 /* .col-lg-3{ */
     /* padding:10px; */
 /* } */
+.image-text{
+    position: relative;
+}
+.text{
+    position:absolute;
+    top:20px;
+    left:30px;
+    right: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    /* box-sizing: border-box; */
+    border: 10px solid #fff;
+}
+.text:hover{
+    opacity: 1;
+}
+
 .portfolio{
     text-align: center;
 }
 .col-lg-3 img{
     max-width: 100%;
     max-height: 100%;
-    padding: 10px;
+    padding: 10px; 
 }
 .form{
-    padding-left: 50px; 
+     /* margin-left: 150px;   */
+     padding-left: 90px;
     padding-top:40px; 
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 90%;
     
 }
