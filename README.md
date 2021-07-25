@@ -37,5 +37,5 @@ Delani studio is a project on a studio website.The site has sections about the s
 ---
   ### License
 
+  [MIT](https://choosealicense.com/licenses/mit/) &COPY;2021 DEVELOPER MOSES KINGS
   
-
